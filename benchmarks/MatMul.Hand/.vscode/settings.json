@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "imgio.h": "c",
+        "pmsis.h": "c",
+        "mills.h": "c",
+        "fs_switch.h": "c",
+        "math.h": "c",
+        "wavio.h": "c",
+        "device.h": "c"
+    }
+}

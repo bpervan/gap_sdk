@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "stdio.h": "c",
+        "*.def": "c",
+        "mnistkernels.h": "c",
+        "mnistkernelsinit.h": "c",
+        "imgio.h": "c",
+        "gap8.h": "c"
+    }
+}

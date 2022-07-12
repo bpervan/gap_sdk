@@ -1,0 +1,210 @@
+gapy --target=gapuino_v2 --platform=board --work-dir=/home/bpervan/Repos/gap_sdk/benchmarks/MatMul.Rise/BUILD/GAP8_V2/GCC_RISCV    run --exec-prepare --exec --binary=/home/bpervan/Repos/gap_sdk/benchmarks/MatMul.Rise/BUILD/GAP8_V2/GCC_RISCV/MatMul.Rise 
+TARGET create
+GAP8 INIT TARGET
+GAP8 examine target
+Init jtag
+Initialising GAP8 JTAG TAP
+Loading binary through JTAG
+
+
+	 *** MatMul - RISE (OMP) ***
+
+Main FC entry point (Manually written)
+FC FREQ: 49971200
+CL FREQ: 49971200
+Start 
+Total cycles: 55336343
+Wall clock time: 1134460 usec
+End 
+Over and out
+Launching execution with command:
+gap8-openocd -c 'gdb_port disabled; telnet_port disabled; tcl_port disabled' -f interface/ftdi/gapuino_ftdi.cfg -f target/gap8revb.tcl -f tcl/jtag_boot_entry.tcl -c 'gap8_jtag_load_binary_and_start "/home/bpervan/Repos/gap_sdk/benchmarks/MatMul.Rise/BUILD/GAP8_V2/GCC_RISCV/MatMul.Rise" elf 0x1c000080'
+gapy --target=gapuino_v2 --platform=board --work-dir=/home/bpervan/Repos/gap_sdk/benchmarks/MatMul.Rise/BUILD/GAP8_V2/GCC_RISCV    run --exec-prepare --exec --binary=/home/bpervan/Repos/gap_sdk/benchmarks/MatMul.Rise/BUILD/GAP8_V2/GCC_RISCV/MatMul.Rise 
+TARGET create
+GAP8 INIT TARGET
+GAP8 examine target
+Init jtag
+Initialising GAP8 JTAG TAP
+Loading binary through JTAG
+
+
+	 *** MatMul - RISE (OMP) ***
+
+Main FC entry point (Manually written)
+FC FREQ: 49971200
+CL FREQ: 49971200
+Start 
+Total cycles: 55315089
+Wall clock time: 1226318 usec
+End 
+Over and out
+Launching execution with command:
+gap8-openocd -c 'gdb_port disabled; telnet_port disabled; tcl_port disabled' -f interface/ftdi/gapuino_ftdi.cfg -f target/gap8revb.tcl -f tcl/jtag_boot_entry.tcl -c 'gap8_jtag_load_binary_and_start "/home/bpervan/Repos/gap_sdk/benchmarks/MatMul.Rise/BUILD/GAP8_V2/GCC_RISCV/MatMul.Rise" elf 0x1c000080'
+gapy --target=gapuino_v2 --platform=board --work-dir=/home/bpervan/Repos/gap_sdk/benchmarks/MatMul.Rise/BUILD/GAP8_V2/GCC_RISCV    run --exec-prepare --exec --binary=/home/bpervan/Repos/gap_sdk/benchmarks/MatMul.Rise/BUILD/GAP8_V2/GCC_RISCV/MatMul.Rise 
+TARGET create
+GAP8 INIT TARGET
+GAP8 examine target
+Init jtag
+Initialising GAP8 JTAG TAP
+Loading binary through JTAG
+
+
+	 *** MatMul - RISE (OMP) ***
+
+Main FC entry point (Manually written)
+FC FREQ: 49971200
+CL FREQ: 49971200
+Start 
+Total cycles: 55301472
+Wall clock time: 1225952 usec
+End 
+Over and out
+Launching execution with command:
+gap8-openocd -c 'gdb_port disabled; telnet_port disabled; tcl_port disabled' -f interface/ftdi/gapuino_ftdi.cfg -f target/gap8revb.tcl -f tcl/jtag_boot_entry.tcl -c 'gap8_jtag_load_binary_and_start "/home/bpervan/Repos/gap_sdk/benchmarks/MatMul.Rise/BUILD/GAP8_V2/GCC_RISCV/MatMul.Rise" elf 0x1c000080'
+gapy --target=gapuino_v2 --platform=board --work-dir=/home/bpervan/Repos/gap_sdk/benchmarks/MatMul.Rise/BUILD/GAP8_V2/GCC_RISCV    run --exec-prepare --exec --binary=/home/bpervan/Repos/gap_sdk/benchmarks/MatMul.Rise/BUILD/GAP8_V2/GCC_RISCV/MatMul.Rise 
+TARGET create
+GAP8 INIT TARGET
+GAP8 examine target
+Init jtag
+Initialising GAP8 JTAG TAP
+Loading binary through JTAG
+
+
+	 *** MatMul - RISE (OMP) ***
+
+Main FC entry point (Manually written)
+FC FREQ: 49971200
+CL FREQ: 49971200
+Start 
+Total cycles: 55319001
+Wall clock time: 1225494 usec
+End 
+Over and out
+Launching execution with command:
+gap8-openocd -c 'gdb_port disabled; telnet_port disabled; tcl_port disabled' -f interface/ftdi/gapuino_ftdi.cfg -f target/gap8revb.tcl -f tcl/jtag_boot_entry.tcl -c 'gap8_jtag_load_binary_and_start "/home/bpervan/Repos/gap_sdk/benchmarks/MatMul.Rise/BUILD/GAP8_V2/GCC_RISCV/MatMul.Rise" elf 0x1c000080'
+gapy --target=gapuino_v2 --platform=board --work-dir=/home/bpervan/Repos/gap_sdk/benchmarks/MatMul.Rise/BUILD/GAP8_V2/GCC_RISCV    run --exec-prepare --exec --binary=/home/bpervan/Repos/gap_sdk/benchmarks/MatMul.Rise/BUILD/GAP8_V2/GCC_RISCV/MatMul.Rise 
+TARGET create
+GAP8 INIT TARGET
+GAP8 examine target
+Init jtag
+Initialising GAP8 JTAG TAP
+Loading binary through JTAG
+
+
+	 *** MatMul - RISE (OMP) ***
+
+Main FC entry point (Manually written)
+FC FREQ: 49971200
+CL FREQ: 49971200
+Start 
+Total cycles: 55295570
+Wall clock time: 1226562 usec
+End 
+Over and out
+Launching execution with command:
+gap8-openocd -c 'gdb_port disabled; telnet_port disabled; tcl_port disabled' -f interface/ftdi/gapuino_ftdi.cfg -f target/gap8revb.tcl -f tcl/jtag_boot_entry.tcl -c 'gap8_jtag_load_binary_and_start "/home/bpervan/Repos/gap_sdk/benchmarks/MatMul.Rise/BUILD/GAP8_V2/GCC_RISCV/MatMul.Rise" elf 0x1c000080'
+gapy --target=gapuino_v2 --platform=board --work-dir=/home/bpervan/Repos/gap_sdk/benchmarks/MatMul.Rise/BUILD/GAP8_V2/GCC_RISCV    run --exec-prepare --exec --binary=/home/bpervan/Repos/gap_sdk/benchmarks/MatMul.Rise/BUILD/GAP8_V2/GCC_RISCV/MatMul.Rise 
+TARGET create
+GAP8 INIT TARGET
+GAP8 examine target
+Init jtag
+Initialising GAP8 JTAG TAP
+Loading binary through JTAG
+
+
+	 *** MatMul - RISE (OMP) ***
+
+Main FC entry point (Manually written)
+FC FREQ: 49971200
+CL FREQ: 49971200
+Start 
+Total cycles: 55308871
+Wall clock time: 1124084 usec
+End 
+Over and out
+Launching execution with command:
+gap8-openocd -c 'gdb_port disabled; telnet_port disabled; tcl_port disabled' -f interface/ftdi/gapuino_ftdi.cfg -f target/gap8revb.tcl -f tcl/jtag_boot_entry.tcl -c 'gap8_jtag_load_binary_and_start "/home/bpervan/Repos/gap_sdk/benchmarks/MatMul.Rise/BUILD/GAP8_V2/GCC_RISCV/MatMul.Rise" elf 0x1c000080'
+gapy --target=gapuino_v2 --platform=board --work-dir=/home/bpervan/Repos/gap_sdk/benchmarks/MatMul.Rise/BUILD/GAP8_V2/GCC_RISCV    run --exec-prepare --exec --binary=/home/bpervan/Repos/gap_sdk/benchmarks/MatMul.Rise/BUILD/GAP8_V2/GCC_RISCV/MatMul.Rise 
+TARGET create
+GAP8 INIT TARGET
+GAP8 examine target
+Init jtag
+Initialising GAP8 JTAG TAP
+Loading binary through JTAG
+
+
+	 *** MatMul - RISE (OMP) ***
+
+Main FC entry point (Manually written)
+FC FREQ: 49971200
+CL FREQ: 49971200
+Start 
+Total cycles: 55311006
+Wall clock time: 1229400 usec
+End 
+Over and out
+Launching execution with command:
+gap8-openocd -c 'gdb_port disabled; telnet_port disabled; tcl_port disabled' -f interface/ftdi/gapuino_ftdi.cfg -f target/gap8revb.tcl -f tcl/jtag_boot_entry.tcl -c 'gap8_jtag_load_binary_and_start "/home/bpervan/Repos/gap_sdk/benchmarks/MatMul.Rise/BUILD/GAP8_V2/GCC_RISCV/MatMul.Rise" elf 0x1c000080'
+gapy --target=gapuino_v2 --platform=board --work-dir=/home/bpervan/Repos/gap_sdk/benchmarks/MatMul.Rise/BUILD/GAP8_V2/GCC_RISCV    run --exec-prepare --exec --binary=/home/bpervan/Repos/gap_sdk/benchmarks/MatMul.Rise/BUILD/GAP8_V2/GCC_RISCV/MatMul.Rise 
+TARGET create
+GAP8 INIT TARGET
+GAP8 examine target
+Init jtag
+Initialising GAP8 JTAG TAP
+Loading binary through JTAG
+
+
+	 *** MatMul - RISE (OMP) ***
+
+Main FC entry point (Manually written)
+FC FREQ: 49971200
+CL FREQ: 49971200
+Start 
+Total cycles: 55340113
+Wall clock time: 1224945 usec
+End 
+Over and out
+Launching execution with command:
+gap8-openocd -c 'gdb_port disabled; telnet_port disabled; tcl_port disabled' -f interface/ftdi/gapuino_ftdi.cfg -f target/gap8revb.tcl -f tcl/jtag_boot_entry.tcl -c 'gap8_jtag_load_binary_and_start "/home/bpervan/Repos/gap_sdk/benchmarks/MatMul.Rise/BUILD/GAP8_V2/GCC_RISCV/MatMul.Rise" elf 0x1c000080'
+gapy --target=gapuino_v2 --platform=board --work-dir=/home/bpervan/Repos/gap_sdk/benchmarks/MatMul.Rise/BUILD/GAP8_V2/GCC_RISCV    run --exec-prepare --exec --binary=/home/bpervan/Repos/gap_sdk/benchmarks/MatMul.Rise/BUILD/GAP8_V2/GCC_RISCV/MatMul.Rise 
+TARGET create
+GAP8 INIT TARGET
+GAP8 examine target
+Init jtag
+Initialising GAP8 JTAG TAP
+Loading binary through JTAG
+
+
+	 *** MatMul - RISE (OMP) ***
+
+Main FC entry point (Manually written)
+FC FREQ: 49971200
+CL FREQ: 49971200
+Start 
+Total cycles: 55326806
+Wall clock time: 1227967 usec
+End 
+Over and out
+Launching execution with command:
+gap8-openocd -c 'gdb_port disabled; telnet_port disabled; tcl_port disabled' -f interface/ftdi/gapuino_ftdi.cfg -f target/gap8revb.tcl -f tcl/jtag_boot_entry.tcl -c 'gap8_jtag_load_binary_and_start "/home/bpervan/Repos/gap_sdk/benchmarks/MatMul.Rise/BUILD/GAP8_V2/GCC_RISCV/MatMul.Rise" elf 0x1c000080'
+gapy --target=gapuino_v2 --platform=board --work-dir=/home/bpervan/Repos/gap_sdk/benchmarks/MatMul.Rise/BUILD/GAP8_V2/GCC_RISCV    run --exec-prepare --exec --binary=/home/bpervan/Repos/gap_sdk/benchmarks/MatMul.Rise/BUILD/GAP8_V2/GCC_RISCV/MatMul.Rise 
+TARGET create
+GAP8 INIT TARGET
+GAP8 examine target
+Init jtag
+Initialising GAP8 JTAG TAP
+Loading binary through JTAG
+
+
+	 *** MatMul - RISE (OMP) ***
+
+Main FC entry point (Manually written)
+FC FREQ: 49971200
+CL FREQ: 49971200
+Start 
+Total cycles: 55339286
+Wall clock time: 1227051 usec
+End 
+Over and out
+Launching execution with command:
+gap8-openocd -c 'gdb_port disabled; telnet_port disabled; tcl_port disabled' -f interface/ftdi/gapuino_ftdi.cfg -f target/gap8revb.tcl -f tcl/jtag_boot_entry.tcl -c 'gap8_jtag_load_binary_and_start "/home/bpervan/Repos/gap_sdk/benchmarks/MatMul.Rise/BUILD/GAP8_V2/GCC_RISCV/MatMul.Rise" elf 0x1c000080'
