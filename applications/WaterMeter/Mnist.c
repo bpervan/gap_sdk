@@ -156,13 +156,17 @@ static void RunMnist()
 
         
 #if RT_HAS_HWCE
+        //printf("HAS HWCE\n");
         eu_evt_maskSet(1<<ARCHI_CL_EVT_ACC0);
 
+        HWCE_Enable();
+
         Conv5x5ReLUMaxPool2x2_HWCE_0((short int*)ImageIn   , L2_W_0_HWCE, Out_Layer0, 12,L2_B_0,  0);
-        //DumpPaddedCoeff("OUTPUT Layer 1",Out_Layer0,12*12,32);
+        DumpPaddedCoeff("OUTPUT Layer 1",Out_Layer0,12*12,32);
         Conv5x5ReLUMaxPool2x2_HWCE_1(            Out_Layer0, L2_W_1_HWCE, Out_Layer1, 12,L2_B_1, 0);
         //DumpPaddedCoeff("OUTPUT Layer 1",Out_Layer1,4*4,32);
 #else
+        //printf("DOES NOT HAVE HWCE\n");
         Conv5x5ReLUMaxPool2x2_0((short int*)ImageIn   , L2_W_0, L2_B_0, Out_Layer0, 12, 0);
         //DumpPaddedCoeff("OUTPUT Layer 1",Out_Layer0,12*12,32);
         Conv5x5ReLUMaxPool2x2_1(            Out_Layer0, L2_W_1, L2_B_1, Out_Layer1, 12, 0);
@@ -202,40 +206,40 @@ static void RunMnist()
 
 
 RT_L2_DATA char *ImageList[]={
-    "../../../dataset/img_OUT1.ppm",
-    "../../../dataset/img_OUT2.ppm",
-    "../../../dataset/img_OUT3.ppm",
-    "../../../dataset/img_OUT4.ppm",
-    "../../../dataset/img_OUT5.ppm",
-    "../../../dataset/img_OUT6.ppm",
-    "../../../dataset/img_OUT7.ppm",
-    "../../../dataset/img_OUT8.ppm",
-    "../../../dataset/img_OUT9.ppm",
-    "../../../dataset/img_OUT10.ppm",
-    "../../../dataset/img_OUT11.ppm",
-    "../../../dataset/img_OUT12.ppm",
-    "../../../dataset/img_OUT13.ppm",
-    "../../../dataset/img_OUT14.ppm",
-    "../../../dataset/img_OUT15.ppm",
-    "../../../dataset/img_OUT16.ppm",
-    "../../../dataset/img_OUT17.ppm",
-    "../../../dataset/img_OUT18.ppm",
-    "../../../dataset/img_OUT19.ppm",
-    "../../../dataset/img_OUT20.ppm",
-    "../../../dataset/img_OUT21.ppm",
-    "../../../dataset/img_OUT22.ppm",
-    "../../../dataset/img_OUT23.ppm",
-    "../../../dataset/img_OUT24.ppm",
-    "../../../dataset/img_OUT25.ppm",
-    "../../../dataset/img_OUT26.ppm",
-    "../../../dataset/img_OUT27.ppm",
-    "../../../dataset/img_OUT28.ppm",
-    "../../../dataset/img_OUT29.ppm",
-    "../../../dataset/img_OUT30.ppm",
-    "../../../dataset/img_OUT31.ppm",
-    "../../../dataset/img_OUT32.ppm",
-    "../../../dataset/img_OUT33.ppm",
-    "../../../dataset/img_OUT34.ppm",
+    "../../../dataset/img_OUT1.ppm"
+    // "../../../dataset/img_OUT2.ppm",
+    // "../../../dataset/img_OUT3.ppm",
+    // "../../../dataset/img_OUT4.ppm",
+    // "../../../dataset/img_OUT5.ppm",
+    // "../../../dataset/img_OUT6.ppm",
+    // "../../../dataset/img_OUT7.ppm",
+    // "../../../dataset/img_OUT8.ppm",
+    // "../../../dataset/img_OUT9.ppm",
+    // "../../../dataset/img_OUT10.ppm",
+    // "../../../dataset/img_OUT11.ppm",
+    // "../../../dataset/img_OUT12.ppm",
+    // "../../../dataset/img_OUT13.ppm",
+    // "../../../dataset/img_OUT14.ppm",
+    // "../../../dataset/img_OUT15.ppm",
+    // "../../../dataset/img_OUT16.ppm",
+    // "../../../dataset/img_OUT17.ppm",
+    // "../../../dataset/img_OUT18.ppm",
+    // "../../../dataset/img_OUT19.ppm",
+    // "../../../dataset/img_OUT20.ppm",
+    // "../../../dataset/img_OUT21.ppm",
+    // "../../../dataset/img_OUT22.ppm",
+    // "../../../dataset/img_OUT23.ppm",
+    // "../../../dataset/img_OUT24.ppm",
+    // "../../../dataset/img_OUT25.ppm",
+    // "../../../dataset/img_OUT26.ppm",
+    // "../../../dataset/img_OUT27.ppm",
+    // "../../../dataset/img_OUT28.ppm",
+    // "../../../dataset/img_OUT29.ppm",
+    // "../../../dataset/img_OUT30.ppm",
+    // "../../../dataset/img_OUT31.ppm",
+    // "../../../dataset/img_OUT32.ppm",
+    // "../../../dataset/img_OUT33.ppm",
+    // "../../../dataset/img_OUT34.ppm",
 };
 
 

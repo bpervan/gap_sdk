@@ -32,7 +32,7 @@ export GAP_USE_OPENOCD=1
 io=host
 
 #To activeate Hardware CE SET -DRT_HAS_HWCE=1
-#USE_HARDWARE_CE = -DRT_HAS_HWCE=1 
+USE_HARDWARE_CE = -DRT_HAS_HWCE=1 
 
 PULP_CFLAGS += -O3 $(USE_HARDWARE_CE)
 PULP_CFLAGS += -mno-memcpy -fno-tree-loop-distribute-patterns  -fdata-sections -ffunction-sections
@@ -41,6 +41,13 @@ PULP_LDFLAGS +=  -flto -Wl,--gc-sections
 # in a clean way.
 PULP_CFLAGS += -Wall -Wno-maybe-uninitialized -Wno-unused-but-set-variable
 PULP_CFLAGS += -I$(TILER_INC) -I$(MNIST_KER_PATH)/include -DNB_FRAMES=$(NB_FRAMES)
+
+$(info USE_HARDWARE_CE $(USE_HARDWARE_CE))
+$(info TILER_INC $(TILER_INC))
+$(info TILER_LIB $(TILER_LIB))
+$(info MNIST_GEN_PATH $(MNIST_GEN_PATH))
+$(info MNIST_KER_PATH $(MNIST_KER_PATH))
+
 
 # The double colon allows us to force this to occur before the imported all target
 # Link model generation to all step

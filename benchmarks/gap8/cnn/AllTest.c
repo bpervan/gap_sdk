@@ -4,7 +4,7 @@
 #include "pulp.h"
 #include "rt/rt_api.h"
 
-#define NOGPIO
+//#define NOGPIO
 #define BYTE 
 
 
